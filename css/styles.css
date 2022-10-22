@@ -1,0 +1,347 @@
+/*Inicialización*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Fin Inicializacion*/
+
+/*Body*/
+body{
+    background-image: url(../img/bg3.png);
+    background-position: center;
+}
+
+/*Header*/
+
+
+.header{
+    background-color: rgba(148, 0, 211, 0.966);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: inset;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-color: darkred;
+    border-bottom-width: 5px;
+}
+
+.header__img {
+    width: 130px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+.navbar__list{
+    display: flex;
+    gap: 55px;
+}
+
+.navbar__item a, a:visited{
+    color: rgb(115, 182, 245);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar__item a:hover, a:active{
+    border-radius: 10px;
+    color: antiquewhite;
+}
+
+.info__caja-links p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Fin Header*/
+
+/*Inicio*/
+
+.info{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__caja{
+    background-color: rgba(137, 43, 226, 0.966);
+    background-image: linear-gradient(to bottom right, rgba(191, 64, 202, 0.925), rgba(131, 15, 167, 0.959));
+    padding: 25px;
+    border-radius: 25px;
+    width: 98vh;
+    border-style: dashed;
+    border-color: rgba(255, 255, 255, 0.63);
+}
+
+.info__titulo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.info__subtitulo{
+    color: rgba(255, 228, 196, 0.788);
+    margin-bottom: 5px;
+    font-size: 2em;
+}
+
+.info__art img{
+    width: 165px;
+    height: 225px;
+    margin: 10px;
+    border-style: dotted;
+    border-color: rgba(0, 0, 255, 0.822);
+}
+
+.info__art{
+    color: rgba(248, 248, 248, 0.767);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+/*Fin Inicio*/
+
+/*Información*/
+
+.info__peresc{
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: beige;
+}
+
+.info__peresc img{
+    width: 75vh;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+.info__peresc-per{
+    padding: 15px;
+    font-size: 1.1em;
+    color: rgb(192, 192, 192);
+    margin: 50px;
+    border-style: dashed;
+    background-color: rgba(150, 31, 104, 0.747);
+    text-align: justify;
+
+}
+
+.info__peresc-per h2, h3{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.info__peresc-per img{
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+}
+
+
+/*Fin Información*/
+
+/*Multimedia*/
+
+.info__caja-vid{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.info__caja-vid video{
+    height: auto;
+    width: 80vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline-style: groove;
+    outline-color: rgba(54, 0, 56, 0.911);
+}
+
+.info__caja-vid h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+.info__caja-vid h2{
+    font-size: 1.7em;
+}
+
+.info__caja-vid h3{
+    font-size: 1.2em;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+/*Fin Multimedia*/
+
+/*Reglas*/
+
+.info__reglas{
+    color: ghostwhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.info__reglas img{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-color: azure;
+    
+}
+
+.info__reglas-fichas{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+.info__reglas-fichas img{
+    width: 45%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-color: rgba(31, 2, 68, 0.815);
+}
+
+#akapai img{
+    width: 16%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-color: rgba(31, 2, 68, 0.815);
+}
+
+#akapai2 img{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-color: rgba(31, 2, 68, 0.815);
+}
+
+
+/*Fin Reglas*/
+
+/*Recomendaciones*/
+
+#links-header img{
+    width: 85%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+
+.info__caja-links img{
+    width: 65%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dashed;
+    border-color: aquamarine;
+}
+
+.info__caja-links h1{
+    font-size: 2em;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info__caja-links h2{
+    font-size: 1.5em;
+    color: floralwhite;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info__caja-links{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    color: blanchedalmond;
+}
+
+.info__caja a:hover, a:active{
+    border-radius: 10px;
+    color: rgb(255, 145, 0);
+}
+
+/*Fin Recomendaciones*/
+
+/*Footer*/
+
+footer {
+	background-color: rgb(138, 23, 161);
+	background-image: linear-gradient(to left, #972784e3 rgba(112, 18, 104, 0.685)b2, #72186a9a);
+	height: 13vh;
+    border-top: solid;
+    border-color: rgba(106, 49, 160, 0.692);
+    border-top-width: 5px;
+  }
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    margin: 10px;
+}
+
+.redes{
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+
+
+/*Fin footer*/
