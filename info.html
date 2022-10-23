@@ -11,63 +11,78 @@
 
 <body>
     
-    <header class="header">
-        <a href="./index.html"><img class="header__img" src="./img/logo.png" alt="Logo"></a>
-
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <li class="navbar__item"><a href="./index.html">Inicio</a></li>
-                <li class="navbar__item"><a href="./info.html">Informacion</a></li>
-                <li class="navbar__item"><a href="./multi.html">Multimedia</a></li>
-                <li class="navbar__item"><a href="./reglas.html">Reglas</a></li>
-                <li class="navbar__item"><a href="./links.html">Recomendaciones</a></li>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid header">
+          <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" class="img-fluid" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./info.html">Información</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./multi.html">Multimedia</a>
+              <li class="nav-item">
+                <a class="nav-link" href="./reglas.html">Reglas</a>
+              <li class="nav-item">
+                <a class="nav-link" href="./links.html">Recomendaciones</a>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
 
-    </header>
     <main>
-        <section class="info">
-            <div class="info__caja">
+        <section class="info container">
+            <div class="info__caja row">
                 <h1 class="info__titulo">Datos de personajes y escuelas</h1>
                 <h2 class="info__subtitulo">Subsección donde se muestra la información sobre los personajes y escuelas principales que aparecen en el anime</h2>
                 <br>
-                <div class="info__peresc">
-                    <h2>Personajes de Kiyosumi</h3><br>
-                    <img src="./img/info/escuela.jpg" alt="Escuela Kiyosumi">
-
-                    <div class="info__peresc-per">
+                <div class="info__peresc row">
+                    <h2>Personajes de Kiyosumi</h2><br>
+                    <img src="./img/info/escuela.jpg" class="rounded mx-auto d-block" alt="Escuela Kiyosumi">
+                    </div>
+                    <!-- Inicio Tarjetas de personaje -->
+                    <div class="row  justify-content-center">
+                    <div class="info__peresc-per col-10 col-md-6 col-xl-4">
                     <h3>Miyanaga, Saki</h3>
-                    <img src="./img/info/saki.png" alt="Saki">
+                    <img src="./img/info/saki.png" class="rounded mx-auto d-block" alt="Saki">
                     <p>Saki Miyanaga (宮永 咲, Miyanaga Saki) is the titular character of the story. She is a first-year student at Kiyosumi High School who is notorious for her ability to break even in every match, 
                     as she didn't want to win against her family. However, after joining the mahjong club, she uses her skill for the sake of winning and hopes to progress to the nationals to reunite with Teru Miyanaga.</p>
                     </div>
 
-                    <div class="info__peresc-per">
+                    <div class="info__peresc-per col-10 col-md-6 col-xl-4">
                     <h3>Haramura, Nodoka</h3>
-                    <img src="./img/info/nodoka.png" alt="Nodoka">
+                    <img src="./img/info/nodoka.png" class="rounded mx-auto d-block" alt="Nodoka">
                     <p>Nodoka Haramura (原村 和, Haramura Nodoka) is the daughter of Kei Haramura and Kaho Haramura and a first-year at Kiyosumi High School who was the previous year's National Middle School Individual Champion.</p>
                     </div>
 
-                    <div class="info__peresc-per">
+                    <div class="info__peresc-per col-10 col-md-6 col-xl-4">
                     <h3>Kataoka, Yuuki</h3>
-                    <img src="./img/info/yuki.png" alt="Yuuki">
+                    <img src="./img/info/yuki.png" class="rounded mx-auto d-block" alt="Yuuki">
                     <p>Yuuki Kataoka (片岡 優希, Kataoka Yūki) is a first year student at Kiyosumi High School who has been friends with Nodoka Haramura since middle school.</p>
                     </div>
 
-                    <div class="info__peresc-per">
+                    <div class="info__peresc-per col-10 col-md-6 col-xl-4">
                     <h3>Takei, Hisa</h3>
-                    <img src="./img/info/hisa.png" alt="Hisa">
+                    <img src="./img/info/hisa.png" class="rounded mx-auto d-block" alt="Hisa">
                     <p>Hisa Takei (竹井 久, Takei Hisa), formerly known as Hisa Ueno (上野 久 Ueno Hisa), is a third year student at Kiyosumi High School and is the current president of the mahjong club, as well as president of the school's student congress.
                         <br>
                         Hisa has always wanted to enter the inter-high team mahjong tournament, but there weren't enough club members to form a five woman team in the previous years.</p>
                     </div>
 
-                    <div class="info__peresc-per">
+                    <div class="info__peresc-per col-10 col-md-6 col-xl-4">
                     <h3>Someya, Mako</h3>
-                    <img src="./img/info/mako.png" alt="Mako">
+                    <img src="./img/info/mako.png" class="rounded mx-auto d-block" alt="Mako">
                     <p>Mako Someya (染谷 まこ, Someya Mako) is a second year student at Kiyosumi High School who is the second person to join Hisa Takei in the mahjong club.
                     </p>
-                    
+                  </div>
+                    <!-- Fin tarjetas de personaje -->
                 </div>
             </div>
 

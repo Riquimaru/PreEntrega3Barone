@@ -11,39 +11,53 @@
 
 <body>
     
-    <header class="header">
-        <a href="./index.html"><img class="header__img" src="./img/logo.png" alt="Logo"></a>
-
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <li class="navbar__item"><a href="./index.html">Inicio</a></li>
-                <li class="navbar__item"><a href="./info.html">Informacion</a></li>
-                <li class="navbar__item"><a href="./multi.html">Multimedia</a></li>
-                <li class="navbar__item"><a href="./reglas.html">Reglas</a></li>
-                <li class="navbar__item"><a href="./links.html">Recomendaciones</a></li>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid header">
+          <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" class="img-fluid" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./info.html">Información</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./multi.html">Multimedia</a>
+              <li class="nav-item">
+                <a class="nav-link" href="./reglas.html">Reglas</a>
+              <li class="nav-item">
+                <a class="nav-link" href="./links.html">Recomendaciones</a>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
 
-    </header>
     <main>
-        <section class="info">
-            <div class="info__caja">
+        <section class="info container">
+            <div class="info__caja row">
                 <h1 class="info__titulo">Reglas Riichi Mahjong</h1>
                 <h2 class="info__subtitulo">La principal actividad realizada en el anime sin dudas era el Riichi Mahjong.
                     Esta variante japonesa del juego de mesa chino cuenta con reglas muy estrictas, que intentaremos explicar
-                    a continuacion</h2><br>
-                <div class="info__reglas">
-                    <article><img src="./img/reglas/mahjong.jpg" alt="Mahjong"><br>
+                    a continuacion</h2>
+                <div class="info__reglas col">
+                    <article><img src="./img/reglas/mahjong.jpg" class="rounded mx-auto d-block" alt="Mahjong"><br>
                         Su origen se remonta a 1924, cuando un soldado llamado Saburo Hirayama llevó el juego a Japón. 
                         El juego ganó en popularidad rápidamente y se crearon en Tokio los primeros clubs de Mahjong y las escuelas, 
                         lo que incrementó todavía más su expansión por el país Nipón. En este proceso de expansión, 
                         las reglas chinas del juego original se fueron simplificando y adaptando a la mecánica de los juegos locales. 
                         Ya en 2008, había aproximadamente 7,6 millones de jugadores de Mahjong y cerca de 8.900 salones de Mahjong en el 
                         país. En 2010, el Mahjong se encumbró como el juego de mesa más popular en Japón.
-                    </article><br><hr><br>
+                    </article><br><br></div></div>
 
-                    <div class="info__reglas-fichas">
-                        <article>
+                    <div class="info container">
+                    <div class="info__caja row">
+                    <div class="info__reglas-fichas col">
+                        <article class="info__reglas">
                             <h2>1 - FICHAS</h2><br>
 
                             <p>El Mahjong japonés se juega generalmente con 136 fichas. Las de las 136, hay 34 tipos de fichas diferentes, con 4 copias de cada una. 
@@ -52,17 +66,17 @@
                             <h3>1.1 Los 3 palos</h3><br>
                             <h4>Pinzu: </h4><br>
                             <p>Del 1 al 9 de Pinzu</p><br>
-                            <img src="./img/reglas/pinzu.png" alt="Fichas Pinzu">
+                            <img src="./img/reglas/pinzu.png" class="rounded mx-auto d-block" alt="Fichas Pinzu">
                             <h4>Souzu: </h4><br>
                             <p>Del 1 al 9 de Souzu</p><br>
-                            <img src="./img/reglas/souzu.png" alt="Fichas Souzu">
+                            <img src="./img/reglas/souzu.png" class="rounded mx-auto d-block" alt="Fichas Souzu">
                             <h4>Manzu</h4><br>
                             <p>Del 1 al 9 de Manzu</p><br>
-                            <img src="./img/reglas/manzu.png" alt="Fichas Manzu"><br>
+                            <img src="./img/reglas/manzu.png" class="rounded mx-auto d-block" alt="Fichas Manzu"><br>
                             La única diferencia con el resto de variantes de Mahjong es la utilización de 3 cincos rojos, 
                             uno de cada palo: <br><br>
                             <div id="akapai">
-                            <img src="./img/reglas/akapai.png" alt="Fichas de cinco rojo">
+                            <img src="./img/reglas/akapai.png" class="rounded mx-auto d-block" alt="Fichas de cinco rojo">
                             </div><br>
                             Estas 3 fichas vienen en los set de Mahjong Riichi junto con las estaciones. Las fichas que no entran son las flores. 
                             También es posible jugar al Riichi Mahjong sin estas fichas, aunque su inclusión dará un mayor dinamismo y algo de aleatoriedad.</p>
@@ -73,18 +87,18 @@
                             <h4>Los tres dragones</h4><br>
                             <p>Haku, Hatsu y Chun</p>
                             <div id="akapai">
-                            <img src="./img/reglas/yakuhai.png" alt="Tres Dragones">
+                            <img src="./img/reglas/yakuhai.png" class="rounded mx-auto d-block" alt="Tres Dragones">
                             </div>
                             <h4>Los cuatro vientos</h4><br>
                             <p>Nan, Ton, Shaa, Pei</p>
                             <div id="akapai2">
-                            <img src="./img/reglas/kaze.png" alt="Cuatro Vientos">
+                            <img src="./img/reglas/kaze.png" class="rounded mx-auto d-block" alt="Cuatro Vientos">
                             </div>
                     </article>
                     </div>
                 </div>
             </div>
-
+          </div>
         </section>
     </main>
 

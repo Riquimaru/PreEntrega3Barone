@@ -11,72 +11,68 @@
 
 <body>
     
-    <header class="header">
-        <a href="./index.html"><img class="header__img" src="./img/logo.png" alt="Logo"></a>
-
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <li class="navbar__item"><a href="./index.html">Inicio</a></li>
-                <li class="navbar__item"><a href="./info.html">Informacion</a></li>
-                <li class="navbar__item"><a href="./multi.html">Multimedia</a></li>
-                <li class="navbar__item"><a href="./reglas.html">Reglas</a></li>
-                <li class="navbar__item"><a href="./links.html">Recomendaciones</a></li>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid header">
+          <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" class="img-fluid" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./info.html">Información</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./multi.html">Multimedia</a>
+              <li class="nav-item">
+                <a class="nav-link" href="./reglas.html">Reglas</a>
+              <li class="nav-item">
+                <a class="nav-link" href="./links.html">Recomendaciones</a>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
 
-    </header>
     <main>
-        <section class="info">
-            <div class="info__caja">
-                <div class="info__caja-links">
+        <section class="info container">
+            <div class="info__caja row justify-content-center">
+                <div class="info__caja-links col-12 col-md-12 col-lg-12 col-xl-12">
                 <h1>Recomendaciones</h1>
                 <h2>Links de webs relacionadas con Saki, o con el Mahjong</h2>
                 <div id="links-header">
-                <img src="./img/links/links.jpg" alt="Links">
+                <img src="./img/links/links.jpg" class="rounded mx-auto d-block" alt="Links">
                 </div>
-            </div>
-            </div>
-        </section>
+                </div>
 
-        <section class="info">
-            <div class="info__caja">
-                <div class="info__caja-links">
+                <div class="info__caja-links col-12 col-md-6">
                 <h2>Wiki especializada en Saki</h2>
-                <img src="./img/links/sakiwiki.png" alt="Saki wiki">
-                <a href="https://saki.fandom.com/wiki/Saki_Wiki"><p>Sakipedia</p></a>
-            </div>
-        </div>
-    </section>
+                <img src="./img/links/sakiwiki.png" class="rounded mx-auto d-block" alt="Saki wiki">
+                <a href="https://saki.fandom.com/wiki/Saki_Wiki">Sakipedia</a>
+                </div>
 
-    <section class="info">
-        <div class="info__caja">
-            <div class="info__caja-links">
+            <div class="info__caja-links col-12 col-md-6">
             <h2>Web para practicar scoring</h2>
-            <img src="./img/links/scoretrainer.png" alt="Scoring">
-            <a href="https://scoringtrainer.konbamwa.net/"><p>Riichi scoring trainer</p></a>
-        </div>
-    </div>
-</section>
+            <img src="./img/links/scoretrainer.png" class="rounded mx-auto d-block" alt="Scoring">
+            <a href="https://scoringtrainer.konbamwa.net/">Riichi scoring trainer</a>
+            </div>
 
-<section class="info">
-    <div class="info__caja">
-        <div class="info__caja-links">
+        <div class="info__caja-links col-12 col-md-6">
         <h2>Wiki especializada en Saki</h2>
-        <img src="./img/links/yakulist.png" alt="Yaku">
-        <a href="https://riichi.wiki/List_of_yaku"><p>Lista de Yaku</p></a>
-    </div>
-</div>
-</section>
+        <img src="./img/links/yakulist.png" class="rounded mx-auto d-block" alt="Yaku">
+        <a href="https://riichi.wiki/List_of_yaku">Lista de Yaku</a>
+        </div>
 
-<section class="info">
-    <div class="info__caja">
-        <div class="info__caja-links">
+        <div class="info__caja-links col-12 col-md-6">
         <h2>Lista de terminología</h2>
-        <img src="./img/links/terminologia.png" alt="Terminologia">
-        <a href="http://mahjong-ny.com/features/terminology/"><p>Sakipedia</p></a>
-    </div>
-</div>
-</section>
+        <img src="./img/links/terminologia.png" class="rounded mx-auto d-block" alt="Terminologia">
+        <a href="http://mahjong-ny.com/features/terminology/">Sakipedia</a>
+        </div>
+      </div>
+      </section>
     </main>
 
     <footer>

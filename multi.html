@@ -11,24 +11,36 @@
 
 <body>
     
-    <header class="header">
-        <a href="./index.html"><img class="header__img" src="./img/logo.png" alt="Logo"></a>
-
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <li class="navbar__item"><a href="./index.html">Inicio</a></li>
-                <li class="navbar__item"><a href="./info.html">Informacion</a></li>
-                <li class="navbar__item"><a href="./multi.html">Multimedia</a></li>
-                <li class="navbar__item"><a href="./reglas.html">Reglas</a></li>
-                <li class="navbar__item"><a href="./links.html">Recomendaciones</a></li>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid header">
+          <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" class="img-fluid" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./info.html">Información</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./multi.html">Multimedia</a>
+              <li class="nav-item">
+                <a class="nav-link" href="./reglas.html">Reglas</a>
+              <li class="nav-item">
+                <a class="nav-link" href="./links.html">Recomendaciones</a>
+              </li>
             </ul>
-        </nav>
-
-    </header>
+          </div>
+        </div>
+      </nav>
+      
     <main>
-        <section class="info">
-        <div class="info__caja">
-            <div class="info__caja-vid">
+        <section class="info container">
+        <div class="info__caja row justify-content-center">
+            <div class="info__caja-vid col-10">
             <h1>Ending Achiga-hen</h1>
             <video controls src="./vid/edachiga.mp4"></video>
             <h2>Saki Achiga-hen: Episode of side-A ED 1</h2>
@@ -38,9 +50,9 @@
         </div>
     </section>
 
-    <section class="info">
-        <div class="info__caja">
-            <div class="info__caja-vid">
+    <section class="info container">
+        <div class="info__caja row justify-content-center">
+            <div class="info__caja-vid col-10">
             <h1>Opening Achiga-hen</h1>
             <video controls src="./vid/opachiga.mp4"></video>
             <h2>Saki Achiga-hen: Episode of Side-A OP 1</h2>
