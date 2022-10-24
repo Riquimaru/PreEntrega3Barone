@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Inicio</title>
 </head>
@@ -42,11 +43,15 @@
                 <h1 class="info__titulo">SAKI</h1>
                 <h2 class="info__subtitulo">Web dedicada a la serie de manga y anime, creada por Kobayashi Ritz</h2><br><br>
                 <div class="info__art col-12">
-                <img class="rounded float-start" src="./img/img1.png" alt="Portada Saki">
+                  <div data-aos="fade-right">
+                  <img class="rounded float-start" src="./img/img1.png" alt="Portada Saki">
+                </div>
                     Saki (咲-Saki) es un manga japonés escrito e ilustrado por Ritz Kobayashi. La historia trata sobre Saki Miyanaga, una estudiante que cursa el primer año de preparatoria quién
                     está envuelta en el mundo competitivo de mahjong gracias a otra estudiante llamada Nodoka Haramura.<br><br> El manga ha sido serializado por Young Gangan de Square Enix desde el 3 de febrero de 2006 y está licenciado al inglés por Yen Press.
                     Una adaptación al anime, que consta de 25 episodios, fue producido por Gonzo y transmitido entre abril y septiembre de 2009 por TV Tokyo.
+                    <div data-aos="fade-left">
                     <img class="rounded float-end" src="./img/img2.png" alt="Portada inferior">
+                    </div>
                     Un manga spin-off, ilustrado por Aguri Igarashi, llamado "Saki Achiga-hen episode of Side-A" (咲 Saki 阿知賀編 episode of Side-A), fue serializado entre septiembre de 2011 y abril de 2013 por Monthly Shōnen Gangan, con una adaptación al anime por Studio Gokumi
                     transmitido entre abril y julio de 2012, con cuatro episodios adicionales transmitidos entre diciembre de 2012 y mayo de 2013. Una tercera serie de anime, Saki: The Nationals (咲-Saki-全国編 Saki: Zenkoku-hen), también de Studio Gokumi, se emitió entre enero y abril de 2014.
                     Una serie derivada de Saki, Side story of -Saki-: Shinohayu the Dawn of Age, fue seriaizada en Big Gangan a partir de septiembre de 2013.<br><br> En junio de 2011, un spin-off escrito por Saya Kiyoshi llamado Saki Biyori, fue publicado en Young Gangan hasta marzo de 2018, con un total de 7 volúmenes;
@@ -64,5 +69,9 @@
 		</nav>
 	</footer>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
