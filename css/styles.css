@@ -131,6 +131,18 @@ footer {
 
 /*Fin Index*/
 /*Inicio Info*/
+.info__fondo {
+  background-color: rgba(137, 43, 226, 0.966);
+  background-image: linear-gradient(to bottom right, rgba(191, 64, 202, 0.925), rgba(131, 15, 167, 0.959));
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.info__fondo-cabeza {
+  background-image: rgba(148, 0, 211, 0.966);
+  background-color: rgba(41, 5, 75, 0.582);
+  color: white;
+}
+
 .info__peresc {
   font-size: 1.2em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -157,6 +169,7 @@ footer {
 }
 .info__peresc-per img {
   border-style: none;
+  animation-delay: 400ms;
 }
 
 /*Fin Info*/

@@ -1,117 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>Información</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Información</title>
 </head>
 
 <body>
-    
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid header">
-          <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" class="img-fluid" alt="Logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./info.html">Información</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./multi.html">Multimedia</a>
-              <li class="nav-item">
-                <a class="nav-link" href="./reglas.html">Reglas</a>
-              <li class="nav-item">
-                <a class="nav-link" href="./links.html">Recomendaciones</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
-    <main>
-        <section class="info container">
-            <div class="info__caja row">
-                <h1 class="info__titulo">Datos de personajes y escuelas</h1>
-                <h2 class="info__subtitulo">Subsección donde se muestra la información sobre los personajes y escuelas principales que aparecen en el anime</h2>
-                <br>
-                <div class="info__peresc row">
-                    <h2>Personajes de Kiyosumi</h2><br>
-                    <img src="../img/info/escuela.jpg" class="rounded mx-auto d-block" alt="Escuela Kiyosumi">
-                    </div>
-                    <!-- Inicio Tarjetas de personaje -->
-                    <div class="row  justify-content-center">
-                    <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid header">
+      <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" class="img-fluid" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./info.html">Información</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./multi.html">Multimedia</a>
+          <li class="nav-item">
+            <a class="nav-link" href="./reglas.html">Reglas</a>
+          <li class="nav-item">
+            <a class="nav-link" href="./links.html">Recomendaciones</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="info container">
+      <div class="info__caja row">
+        <h1 class="info__titulo">Datos de personajes y escuelas</h1>
+        <h2 class="info__subtitulo">Subsección donde se muestra la información sobre los personajes y escuelas
+          principales que aparecen en el anime</h2>
+        <br>
+        <div class="info__peresc row">
+          <h2>Personajes de Saki</h2><br>
+          <img src="../img/info/escuela.jpg" class="rounded mx-auto d-block" alt="Escuela Kiyosumi">
+        </div>
+        <!-- Inicio Kiyosumi-->
+        <div class="accordion accordion-flush">
+          <div class="accordion-item info__fondo">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button collapsed info__fondo-cabeza" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                Escuela Kiyosumi
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <div class="row  justify-content-center">
+                  <div class="info__peresc-per col-10 col-md-6 col-xl-4">
                     <h3>Miyanaga, Saki</h3>
                     <div data-aos="flip-left">
-                    <img src="../img/info/saki.png" class="rounded mx-auto d-block" alt="Saki">
+                      <img src="../img/info/saki.png" class="rounded mx-auto d-block" alt="Saki">
                     </div>
-                    <p>Saki Miyanaga (宮永 咲, Miyanaga Saki) is the titular character of the story. She is a first-year student at Kiyosumi High School who is notorious for her ability to break even in every match, 
-                    as she didn't want to win against her family. However, after joining the mahjong club, she uses her skill for the sake of winning and hopes to progress to the nationals to reunite with Teru Miyanaga.</p>
-                    </div>
+                    <p>Saki is a shy and bookish girl with a poor sense of direction. At first, despite her skills, she
+                      doesn't like mahjong, in particular because of her family. She is very caring about her friends'
+                      feelings, as seen when she loses on purpose to Yuuki Kataoka to make her feel better and stops
+                      doing so because Nodoka says that she cannot have fun if Saki is holding back. Saki gets very
+                      excited when thinking about playing against strong competition.
 
-                    <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                      Saki is a poor swimmer and she doesn't use electronics, only getting Mako's old cell-phone right
+                      before the team semi-finals in the nationals.</p>
+                  </div>
+
+                  <div class="info__peresc-per col-10 col-md-6 col-xl-4">
                     <h3>Haramura, Nodoka</h3>
                     <div data-aos="flip-right">
-                    <img src="../img/info/nodoka.png" class="rounded mx-auto d-block" alt="Nodoka">
+                      <img src="../img/info/nodoka.png" class="rounded mx-auto d-block" alt="Nodoka">
                     </div>
-                    <p>Nodoka Haramura (原村 和, Haramura Nodoka) is the daughter of Kei Haramura and Kaho Haramura and a first-year at Kiyosumi High School who was the previous year's National Middle School Individual Champion.</p>
-                    </div>
-
-                    <div class="info__peresc-per col-10 col-md-6 col-xl-4">
-                    <h3>Kataoka, Yuuki</h3>
-                    <div data-aos="flip-left">
-                    <img src="../img/info/yuki.png" class="rounded mx-auto d-block" alt="Yuuki">
-                    </div>
-                    <p>Yuuki Kataoka (片岡 優希, Kataoka Yūki) is a first year student at Kiyosumi High School who has been friends with Nodoka Haramura since middle school.</p>
-                    </div>
-
-                    <div class="info__peresc-per col-10 col-md-6 col-xl-4">
-                    <h3>Takei, Hisa</h3>
-                    <div data-aos="flip-right">
-                    <img src="../img/info/hisa.png" class="rounded mx-auto d-block" alt="Hisa">
-                    </div>
-                    <p>Hisa Takei (竹井 久, Takei Hisa), formerly known as Hisa Ueno (上野 久 Ueno Hisa), is a third year student at Kiyosumi High School and is the current president of the mahjong club, as well as president of the school's student congress.
-                        <br>
-                        Hisa has always wanted to enter the inter-high team mahjong tournament, but there weren't enough club members to form a five woman team in the previous years.</p>
-                    </div>
-
-                    <div class="info__peresc-per col-10 col-md-6 col-xl-4">
-                    <h3>Someya, Mako</h3>
-                    <div data-aos="flip-left">
-                    <img src="../img/info/mako.png" class="rounded mx-auto d-block" alt="Mako">
-                    </div>
-                    <p>Mako Someya (染谷 まこ, Someya Mako) is a second year student at Kiyosumi High School who is the second person to join Hisa Takei in the mahjong club.
+                    <p>Nodoka's personality is a "proper lady" as noted by Mako Someya where she is very logical but can
+                      be a bit childish as she cannot sleep without her penguin doll. She is distant with Saki at first
+                      but over time becomes extremely close to her. Nodoka is also very stubborn and despite being
+                      logical rushes into things without thinking. She is sensitive when talking about her breasts with
+                      others.
                     </p>
                   </div>
-                    <!-- Fin tarjetas de personaje -->
+
+                  <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                    <h3>Kataoka, Yuuki</h3>
+                    <div data-aos="flip-left">
+                      <img src="../img/info/yuuki.png" class="rounded mx-auto d-block" alt="Yuuki">
+                    </div>
+                    <p>Despite being a first year in high school, Yuuki is a very child-like girl who seems to be
+                      obsessed with Nodoka Haramura's large breasts and wants larger ones herself. She is flirtatious
+                      towards Kyoutarou Suga; whether this is because of an actual attraction or because she likes to
+                      poke fun is unknown. She is also protective of her friends: during the nationals when the media
+                      says that the Nagano prefecture has been dropping in power, she gets angry because she feels that
+                      they are making fun of her friends and she vows to make them pay.
+
+                      She is also quite prideful, as Nodoka noted that she wouldn't let herself cry in front of other
+                      first-years, but was willing to cry when only Mako Someya and Hisa Takei were in the room.</p>
+                  </div>
+
+                  <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                    <h3>Takei, Hisa</h3>
+                    <div data-aos="flip-right">
+                      <img src="../img/info/hisa.png" class="rounded mx-auto d-block" alt="Hisa">
+                    </div>
+                    <p>Hisa is shown to be a great leader both while playing mahjong and outside of it. Hisa is very
+                      caring for her underclassmen like when she comforts Yuuki Kataoka after her defeat in the
+                      prefectural tournament. She has good foresight and can be very scheming, with people noticing that
+                      Yuuki's shift in playstyle during the semifinals was an intentional play by someone else who had
+                      something bigger than winning the semifinals in mind.
+
+                      She is shown to have great confidence in her mahjong ability and will not back down from a
+                      challenge. However, she did waver during the national tournament's second round but recovered soon
+                      after. Opponents have described her as having bad manners due to her slamming of the tiles during
+                      matches.
+                    </p>
+                  </div>
+
+                  <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                    <h3>Someya, Mako</h3>
+                    <div data-aos="flip-left">
+                      <img src="../img/info/mako.png" class="rounded mx-auto d-block" alt="Mako">
+                    </div>
+                    <p>Mako is a reliable person and a trusting friend, being the only person that Hisa Takei shows her
+                      doubts to. She is often snarky when she speaks to Hisa. She was very close to her grandpa growing
+                      up and has adopted some of his personality, like the way he speaks. She uses the dialect from
+                      Hiroshima prefecture because of his influence.
+
+                      However, she is also shown to be a bit vengeful, as she, along with Tomoki Sawamura and Miharu
+                      Yoshitome, sought revenge against Kaori Senoo for defeating them in the prefectural final with her
+                      beginner's luck.
+                    </p>
+                  </div>
                 </div>
+              </div>
             </div>
+            <!-- Fin Kiyosumi -->
+            <!-- Inicio Achiga -->
+            <div class="accordion-item info__fondo">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed info__fondo-cabeza" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  Escuela Achiga
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="row  justify-content-center">
+                  <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                    <h3>Takakamo, Shizuno</h3>
+                    <div data-aos="flip-left">
+                      <img src="../img/info/shizu.png" class="rounded mx-auto d-block" alt="Saki">
+                    </div>
+                    <p>Shizuno is an energetic, athletic girl, and is excited about almost all things. She enjoys
+                      hanging out with her friends whenever possible and tries to have as much fun as she can. She
+                      become a worthy opponent due to her atittude of never giving up until the very end. When the team
+                      falls into despair or is not motivated, she will always step up and cheer them on.</p>
+                  </div>
 
-        </section>
-        
-    </main>
+                  <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                    <h3>Matsumi, Kuro</h3>
+                    <div data-aos="flip-right">
+                      <img src="../img/info/kuro.png" class="rounded mx-auto d-block" alt="Nodoka">
+                    </div>
+                    <p>Kuro is a polite, cheerful, and has shown on several occasions to have a fascination with
+                      breasts. She also seems to be very optimistic, as she waited for two years for someone to restart
+                      the mahjong club. She has a very good relationship with her older sister. Kuro has described
+                      herself as the waiting type. However, it is hinted that she is also a little oblivious, as she was
+                      unable to tell that Kirame Hanada and Toki Onjouji helped her win off of Teru Miyanaga.
 
-    <footer>
-		<nav class="contacto">
-			<a href="mailto:ricardobarone@outlook.com"><img class="redes" src="../img/mail.png" alt="MAIL"></a><br>
-			<a href="https://www.adistancia.frba.utn.edu.ar/user/profile.php?id=121658"><img class="redes" src="../img/utn.png" alt="PERFIL UTN"></a><br>
-			<a href="https://www.facebook.com/Riqui.Barone/"><img class="redes" src="../img/fb.png" alt="FACEBOOK"></a>
-		</nav>
-	</footer>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+                      Kuro describes herself as a "waiting-type," as she cleaned the Achiga mahjong room when it was her
+                      turn after the club has disbanded and is willing to wait for dora to come back to her, even if
+                      she's unsure if they would.
+                    </p>
+                  </div>
+
+                  <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                    <h3>Matsumi, Yuu</h3>
+                    <div data-aos="flip-left">
+                      <img src="../img/info/yuu.png" class="rounded mx-auto d-block" alt="Yuuki">
+                    </div>
+                    <p>Yuu is polite, shy, and a bit of a push-over. However, she can be determined at times, refusing
+                      to buckle even when faced with unfavorable situations, and being determined to win back any points
+                      her sister lost.She has a strong relationship with her sister, and has been friends with Ako
+                      Atarashi and Arata Sagimori for some time.
+
+                      Yuu's biggest quirk is that she is very sensitive to the cold so much so that she freezes even
+                      during the summer and so always wears mittens, scarves, and other items to keep her warm.</p>
+                  </div>
+
+                  <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                    <h3>Atarashi, Ako</h3>
+                    <div data-aos="flip-right">
+                      <img src="../img/info/ako.png" class="rounded mx-auto d-block" alt="Hisa">
+                    </div>
+                    <p>According to Harue Akado, Ako is a cunning individual and she is much like Shizuno Takakamo in
+                      that she is cheerful but more logical compared to Shizuno. Ako showed her ambition and forethought
+                      when she transferred away from Achiga to pursue mahjong at Adamine, but later showed her loyalty
+                      by returning to Achiga to play mahjong with her friends. She also wants to hang out with her
+                      friends as much as possible and have fun playing mahjong with them like in the past. She is not
+                      afraid to be blunt (telling Kuro Matsumi that it was her fault for losing 40,000 points in the
+                      quarterfinals) but also comforts her friends when necessary (following up by saying that they just
+                      had to win back those points).
+
+                      Despite her upfront and confident bravado, she revealed to Yuu that she was scared before playing
+                      in the semifinals, who comforted her accordingly.
+                    </p>
+                  </div>
+
+                  <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                    <h3>Sagimori, Arata</h3>
+                    <div data-aos="flip-left">
+                      <img src="../img/info/arata.png" class="rounded mx-auto d-block" alt="Mako">
+                    </div>
+                    <p>Arata has a cool type personality who has a strong admiration of Harue Akado, but at first she
+                      stops playing mahjong because of Harue's loss in the semi-final match of the national tournament
+                      and quit the team afterwards on. But later she starts playing again when Harue becomes the coach
+                      of the Achiga team. According to Harue, she is a reliable person, so much so that she is named
+                      president of the newly reformed mahjong club.
+                  </div>
+                </div>
+              </div>
+              <!-- Fin Achiga -->
+              <!-- Inicio Senriyama -->
+              <div class="accordion-item info__fondo">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed info__fondo-cabeza" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree">
+                    Escuela Senriyama
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    <div class="row  justify-content-center">
+                      <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                        <h3>Onjouji, Toki</h3>
+                        <div data-aos="flip-left">
+                          <img src="../img/info/toki.png" class="rounded mx-auto d-block" alt="Saki">
+                        </div>
+                        <p>Toki is physically weak that she is constantly being cared for by Ryuuka Shimizudani.
+                          Although she cares for Ryuuka and other members, she doesn't want to become a burden to them
+                          as she is always being hospitalized.
+
+                          While playing she is very smart and astute (such as how she utilizes her powers), although she
+                          also shows a bit of hubris and a defeatist attitude. Against Teru Miyanaga, she attempted to
+                          fight the champion head-on, but failed, this lead to her thinking the match was lost and that
+                          it was a mistake for Senriyama Girls' High School to put her as their ace. When Kirame Hanada
+                          began calling tiles and showing Toki the path to victory, her disposition changed, and she
+                          tried her best to help Kirame keep Teru down. Without either player saying anything, they both
+                          knew they had the same goal and had to work together in order to get there.
+
+                          Instead of securing second place for Senriyama in order to move onto the finals (such as by
+                          allowing Teru to continue her renchan and drop one of the other schools to 0, as Senriyama had
+                          a 30,000 point lead on third place Achiga), Toki enabled Kuro Matsumi's baiman win against
+                          Teru, prolonging the match and giving the other two schools a chance at moving on that this
+                          shows her resolve to get her school to first place.
+                        </p>
+                      </div>
+
+                      <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                        <h3>Nijou, Izumi</h3>
+                        <div data-aos="flip-right">
+                          <img src="../img/info/izumi.png" class="rounded mx-auto d-block" alt="Nodoka">
+                        </div>
+                        <p>Izumi is shown to have a leadership type of personality despite being a first year. She is
+                          headstrong and confident: when she was pushed down, she tried her hardest to get back up and
+                          push back. However, she is also conscious of the fact that she let down her teammates by
+                          losing over 30, 000 pts, apologising to both Sera Eguchi and Hiroko Funakubo, with tears in
+                          her eyes; noting that Sera (Toki Onjouji and Ryuuka Shimizudani) was a third-year and she felt
+                          it her fault that they might not continue onto the finals.
+
+                          When she was a child she had a strong personality, concocting a plan to lure Toki and Ryuuka
+                          into play mahjong with her. She hated being treated like a child, and looked down on her
+                          classmates because she felt she was better than them.
+                        </p>
+                      </div>
+
+                      <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                        <h3>Eguchi, Sera</h3>
+                        <div data-aos="flip-left">
+                          <img src="../img/info/sera.png" class="rounded mx-auto d-block" alt="Yuuki">
+                        </div>
+                        <p>Sera is a quite pretty cheerful tomboy and the reason she picked Senriyama's mahjong club is
+                          that she wouldn't be forced to wear her school uniform at school, as she is embarrassed to
+                          wear a skirt. She is very friendly not only to her friends but also to her opponents as shown
+                          when with her interactions with Ako Atarashi, starting out as a friendly rivalry and turning
+                          much friendlier after their match (causing Hiroko Funakubo to remark that Sera shouldn't be
+                          flirting with their competition).
+
+                          Unlike her team mates who cried at their loss during the Side-A semifinals, Sera did not shed
+                          any tears in front of them; although Ryuuka says she didn't eat anything until the day after
+                          the Side-B semifinals.</p>
+                      </div>
+
+                      <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                        <h3>Funakubo, Hiroko</h3>
+                        <div data-aos="flip-right">
+                          <img src="../img/info/hiroko.png" class="rounded mx-auto d-block" alt="Hisa">
+                        </div>
+                        <p>Hiroko is the one who informs her teammates about their opponents and how to deal with them.
+                          Her teammates compare her to a scientist. She has a growing interest in Arata Sagimori due to
+                          her different play style in every game. Thus, she is determined to analyze Arata as her new
+                          specimen.
+
+                          Hiroko is typically serious and somewhat blunt, telling Izumi Nijou that there are many in her
+                          age group who are much better than she is, and that she should not focus too much on comparing
+                          herself to others.
+
+                          Hiroko is in charge of making sure that Sera Eguchi wears her school uniform to matches.
+
+                          Although she was born in Kobe, one cannot distinguish her from a student from Osaka.
+                        </p>
+                      </div>
+
+                      <div class="info__peresc-per col-10 col-md-6 col-xl-4">
+                        <h3>Shimizudani, Ryuuka</h3>
+                        <div data-aos="flip-left">
+                          <img src="../img/info/ryuuka.png" class="rounded mx-auto d-block" alt="Mako">
+                        </div>
+                        <p>Ryuuka is a cheerful type girl who shares a strong bond with Toki Onjouji and she always
+                          takes care of Toki like a mother and constantly watches over her so that she does not push
+                          herself too hard. Since meeting Achiga she seems to have grown fond of them as well to the
+                          minutes that she does not know to root for her team or Achiga.
+
+                          Although she can be a bit of an airhead, Ryuuka shows a much more serious and calculated side
+                          while playing mahjong. It is said that she tops in Kansai with precise plays and highly
+                          accurate predictions, which is reflected when we see glimpses into Ryuuka's thought process at
+                          the table.
+
+                          She took her defeat in the semifinals hard, and told Kyouko Suehara that she cried a lot and
+                          that sometimes tears would simply fall without any reason.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fin Senriyama -->
+          <!-- Fin tarjetas de personaje -->
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <nav class="contacto">
+      <a href="mailto:ricardobarone@outlook.com"><img class="redes" src="../img/mail.png" alt="MAIL"></a><br>
+      <a href="https://www.adistancia.frba.utn.edu.ar/user/profile.php?id=121658"><img class="redes"
+          src="../img/utn.png" alt="PERFIL UTN"></a><br>
+      <a href="https://www.facebook.com/Riqui.Barone/"><img class="redes" src="../img/fb.png" alt="FACEBOOK"></a>
+    </nav>
+  </footer>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>

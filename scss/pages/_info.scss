@@ -1,5 +1,15 @@
 /*Inicio Info*/
-
+.info__fondo{
+    background-color: rgba(137, 43, 226, 0.966);
+    background-image: $color-caja;
+    margin-top: 5px;
+    margin-bottom: 5px;
+&-cabeza{
+    background-image: $color-header;
+    background-color: rgba(41, 5, 75, 0.582);
+    color: white;
+}
+}
 .info__peresc{
     font-size: 1.2em;
     font-family: $fuente-ppal;
@@ -29,6 +39,7 @@
 
 & img{
     border-style: none;
+    animation-delay: 400ms;
 
 }
 }
