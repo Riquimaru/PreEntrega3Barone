@@ -1,0 +1,44 @@
+/*Inicio Reglas*/
+
+.info__reglas{
+    color: ghostwhite;
+    font-family: $fuente-ppal;
+    font-size: 1em;
+    text-align: justify;
+
+& img{
+    width: 70%;
+    height: auto;
+    border: solid;
+    margin-top: 10px;
+    border-color: azure;
+}
+
+&-fichas{
+    font-family: $fuente-ppal;
+    text-align: justify
+}
+
+&-fichas img{
+    width: 45%;
+    height: auto;
+    border: solid;
+    border-color: rgba(22, 7, 43, 0.815);
+}
+}
+
+#akapai img{
+    width: 15%;
+    height: auto;
+    border: solid;
+    border-color: rgba(144, 76, 233, 0.815);
+}
+
+#akapai2 img{
+    width: 20%;
+    height: auto;
+    border: solid;
+    border-color: rgba(144, 76, 233, 0.815);
+}
+
+/*Fin Reglas*/
